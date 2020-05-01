@@ -1,5 +1,7 @@
 # markdown-toc
 
+This is a project fork. Note that some documentation might not have been brought up to date yet.
+
 <p align="center">
     <strong>Generating your Markdown Table of Contents</strong>
 </p>

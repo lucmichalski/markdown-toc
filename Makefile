@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := all
 VERSION := `cat VERSION`
-PROJECT := "github.com/sebdah/markdown-toc"
-IMAGE := "sebdah/markdown-toc"
+PROJECT := "github.com/maciej/markdown-toc"
+IMAGE := "maciej/markdown-toc"
 
 .PHONY: all
 all: test
