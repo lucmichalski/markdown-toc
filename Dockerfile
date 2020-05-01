@@ -1,8 +1,8 @@
-FROM golang:1.9-stretch
+FROM golang:1.14
 
-RUN mkdir -p /go/src/github.com/sebdah/markdown-toc
-WORKDIR /go/src/github.com/sebdah/markdown-toc
-ADD . /go/src/github.com/sebdah/markdown-toc
+RUN mkdir -p /work/markdown-toc
+WORKDIR /work/markdown-toc
+ADD . /work/markdown-toc
 
 RUN make install
 

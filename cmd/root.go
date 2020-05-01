@@ -6,8 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sebdah/markdown-toc/toc"
 	"github.com/spf13/cobra"
+
+	"github.com/maciej/markdown-toc/toc"
 )
 
 var (
